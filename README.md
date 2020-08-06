@@ -1,3 +1,7 @@
+## React版小Q聊天机器人
+
+![效果图](https://img-blog.csdnimg.cn/20200806164150934.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
