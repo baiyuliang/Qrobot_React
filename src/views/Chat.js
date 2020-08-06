@@ -17,7 +17,6 @@ class Chat extends React.Component {
                 me: false
             }]
         }
-        this.listRef = React.createRef();
     }
 
     //调用接口
@@ -32,8 +31,6 @@ class Chat extends React.Component {
             this.setState({
                 msglist: this.state.msglist,
             })
-            console.log(this.listRef.current.scrollTop, this.listRef.current.scrollHeight)
-            this.listRef.current.scrollTop = this.listRef.current.scrollHeight;
         })
     }
 
@@ -81,7 +78,7 @@ class Chat extends React.Component {
     render() {
         return (
             <div className="chat-container">
-                <div className="chat-list" ref={this.listRef}>
+                <div className="chat-list"}>
                     <ul>
                         <ListItem list={this.state.msglist}/>
                     </ul>
