@@ -1,0 +1,33 @@
+.left-item-container {
+  display: flex;
+  padding: 10px 15px;
+  margin-right: 60px;
+
+  .left-item-head {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+  }
+
+  .left-item-content {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    .left-item-text {
+      background-color: deepskyblue;
+      border-bottom-right-radius: 10px;
+      padding: 5px 5px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .left-item-img {
+      width: 100px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
+
+}
